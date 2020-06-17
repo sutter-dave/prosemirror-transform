@@ -1,4 +1,4 @@
-import {MarkType, Slice, Fragment} from "/prosemirror/dist/prosemirror-model.es.js"
+import {MarkType, Slice, Fragment} from "/prosemirror/devimports/prosemirror-model.es.js"
 
 import {Transform} from "./transform.js"
 import {AddMarkStep, RemoveMarkStep} from "./mark_step.js"

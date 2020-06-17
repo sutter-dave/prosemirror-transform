@@ -1,4 +1,4 @@
-import {ReplaceError} from "/prosemirror/dist/prosemirror-model.es.js"
+import {ReplaceError} from "/prosemirror/devimports/prosemirror-model.es.js"
 
 import {StepMap} from "./map.js"
 

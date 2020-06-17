@@ -1,4 +1,4 @@
-import {Slice} from "/prosemirror/dist/prosemirror-model.es.js"
+import {Slice} from "/prosemirror/devimports/prosemirror-model.es.js"
 
 import {Step, StepResult} from "./step.js"
 import {StepMap} from "./map.js"

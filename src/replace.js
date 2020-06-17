@@ -1,4 +1,4 @@
-import {Fragment, Slice} from "/prosemirror/dist/prosemirror-model.es.js"
+import {Fragment, Slice} from "/prosemirror/devimports/prosemirror-model.es.js"
 
 import {ReplaceStep, ReplaceAroundStep} from "./replace_step.js"
 import {Transform} from "./transform.js"
