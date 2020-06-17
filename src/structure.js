@@ -1,7 +1,7 @@
-import {Slice, Fragment} from "prosemirror-model"
+import {Slice, Fragment} from "/prosemirror/dist/prosemirror-model.es.js"
 
-import {Transform} from "./transform"
-import {ReplaceStep, ReplaceAroundStep} from "./replace_step"
+import {Transform} from "./transform.js"
+import {ReplaceStep, ReplaceAroundStep} from "./replace_step.js"
 
 function canCut(node, start, end) {
   return (start == 0 || node.canReplace(start, node.childCount)) &&

@@ -1,6 +1,6 @@
-import {ReplaceError} from "prosemirror-model"
+import {ReplaceError} from "/prosemirror/dist/prosemirror-model.es.js"
 
-import {StepMap} from "./map"
+import {StepMap} from "./map.js"
 
 function mustOverride() { throw new Error("Override me") }
 

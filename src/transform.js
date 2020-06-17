@@ -1,4 +1,4 @@
-import {Mapping} from "./map"
+import {Mapping} from "./map.js"
 
 export function TransformError(message) {
   let err = Error.call(this, message)

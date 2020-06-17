@@ -1,8 +1,8 @@
-import {Fragment, Slice} from "prosemirror-model"
+import {Fragment, Slice} from "/prosemirror/dist/prosemirror-model.es.js"
 
-import {ReplaceStep, ReplaceAroundStep} from "./replace_step"
-import {Transform} from "./transform"
-import {insertPoint} from "./structure"
+import {ReplaceStep, ReplaceAroundStep} from "./replace_step.js"
+import {Transform} from "./transform.js"
+import {insertPoint} from "./structure.js"
 
 // :: (Node, number, ?number, ?Slice) → ?Step
 // ‘Fit’ a slice into a given position in the document, producing a

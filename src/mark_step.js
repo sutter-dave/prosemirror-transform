@@ -1,5 +1,5 @@
-import {Fragment, Slice} from "prosemirror-model"
-import {Step, StepResult} from "./step"
+import {Fragment, Slice} from "/prosemirror/dist/prosemirror-model.es.js"
+import {Step, StepResult} from "./step.js"
 
 function mapFragment(fragment, f, parent) {
   let mapped = []
