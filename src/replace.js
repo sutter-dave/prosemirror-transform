@@ -464,7 +464,9 @@ Transform.prototype.deleteRange = function(from, to) {
       return this.delete($from.before(depth), $to.after(depth))
   }
   for (let d = 1; d <= $from.depth && d <= $to.depth; d++) {
-    if (from - $from.start(d) == $from.depth - d && to > $from.end(d) && $to.end(d) - to != $to.depth - d)
+//I think there was an error here. I made a change
+//    if (from - $from.start(d) == $from.depth - d && to > $from.end(d) && $to.end(d) - to != $to.depth - d)
+    if (from - $from.start(d) == $from.depth - d && to > $from.end(d) && $to.end(d) - to == $to.depth - d)
       return this.delete($from.before(d), to)
   }
   return this.delete(from, to)
